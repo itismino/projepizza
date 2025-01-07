@@ -123,7 +123,7 @@ section {
   gap: 30px;
 }
 
-.extras-elements{ /*Şuan burada 4 satır var, 5 satır olmalı*/
+.extras-elements{ 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -157,7 +157,7 @@ section {
   border: 2px solid #333;
 }
 
-.customer-note textarea{ /*GENİŞLİĞİ PROBLEMLİ*/
+.customer-note textarea{ 
   all: unset;
   border-radius: 5px;
   border: 1px solid #5F5F5F;

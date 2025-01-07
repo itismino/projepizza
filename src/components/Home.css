@@ -1,33 +1,303 @@
-.home-page {
+body {
+    overflow-x: hidden;
+    width: 104vw;
+}
+
+/* BURASI HEADER KISMI */
+.home-header {
     background-image: url('../../images/iteration-1-images/home-banner.png');
     color: white;
     text-align: center;
-    height: 100vh;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: "Barlow", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
 }
 
-.home-page img {
-    margin-top: 80px;
-    width: 200px;
+header .home-page img {
+    width: 300px;
 }
 
-.home-page p{
+.home-message {
+    font-family: "Satisfy", serif;
+        color: #FDC913;
+        padding-top: 20px;
+        font-size: 20px;
+    
+}
+
+.home-page p {
     margin-top: 40px;
-    font-family: 'Roboto Condensed', serif;
-    font-size: 50px; /*düzenlenecek*/
+    
+    font-size: 50px; 
     font-weight: 300;
     line-height: 1.2;
 }
 
-.home-page button{
+.home-page button {
     margin-top: 30px;
     background-color: #FDC913;
     border-radius: 20px;
     height: 40px;
     width: 150px;
     border: none;
+    cursor: pointer;
+}
+
+/* BURASI HOME SECTİON KISMI */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.header-nav-button nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    max-width: 1200px;
+   margin-left: 15%;
+}
+
+.header-nav-elements {
+    text-align: center;
+}
+
+.header-nav-elements img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-section-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: row;
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+
+
+.content-card1, .content-card2, .content-card3 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.content-card1 {
+    background-image: url('../../images/iteration-2-images/cta/kart-1.png');
+    margin-left: 360px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    color: white;
+    font-family: 'Quattrocento', cursive;
+
+
+}
+
+.content-card1 h4 {
+    font-size: 50px;
+    font-family: "Quattrocento", serif;
+    margin-left: 10px;
+    margin-top: 25px;
+    display: flex;
+  max-width: 100px;
+}
+
+.content-card1 button {
+    margin-top: 20px;
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    margin-right: 500px;
+}
+
+
+
+.content-card1 p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Barlow", serif;
+    display: flex;
+    
+}
+
+.content-card2 {
+    
+    background-image: url('../../images/iteration-2-images/cta/kart-2.png');
+    height: 175px;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+.content-card2 h4{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "Quattrocento", serif;
+    display: flex;
+    margin-left: 15px;
+    max-width: 150px;
+}
+
+.content-card2 button{
+    margin-top: 20px;
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    align-items: flex-start;
+    
+   
+}
+
+.content-card3 {
+    background-image: url('../../images/iteration-2-images/cta/kart-3.png');
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 175px;
+    margin-top: 10px;
+}
+.content-card3 h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Quattrocento", serif;
+    display: flex;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #ff0000;
+}
+
+.content-card3 button{
+  
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    align-self: flex-start;
+
+   
+}
+
+.home-section-text {
+    text-align: center;
+    margin-top: 50px;
+}
+.home-section-text p {
+    font-family: 'Satisfy', cursive;
+    color:  #CE2829;
+    font-size: 30px;
+}
+.home-section-text h4{
+    font-family: "Barlow", serif;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-nav-button nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 25%;
+    max-width: 800px;
+}
+
+.section-nav-elements {
+    text-align: center;
+    background-color: white;
+}
+
+.section-nav-elements img {
+    width: 50px;
+    height: 50px;
+}
+.section-nav-elements img {
+    height: 40px;
+}
+
+.section-pizza {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.section-pizza-card1, .section-pizza-card2, .section-pizza-card3 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+}
+.rateNreview {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* BURASI FOOTER KISMI */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    width: 30%;
+}
+
+.footer-adress, .footer-phone, .footer-mail {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-adress img, .footer-phone img, .footer-mail img {
+    margin-right: 10px;
+}
+
+.footer-insta {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer-insta img {
+    width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 768px) {
